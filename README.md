@@ -1,1 +1,3 @@
-# My name is fahad
+# Repo created successfully
+
+I am fahad
