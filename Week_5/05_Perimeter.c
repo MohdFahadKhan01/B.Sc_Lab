@@ -27,7 +27,7 @@ int main()
         printf("Enter the 3 sides of triangle :");
         scanf("%lf%lf%lf", &n1, &n2, &n3);
 
-        if (n1 >= (n2 + n3) || n2 >= (n1 + n3) || n3 >= (n1 + n2))
+        if (n1 > (n2 + n3) || n2 > (n1 + n3) || n3 > (n1 + n2))
         {
             printf("No triangle is formed");
         }
